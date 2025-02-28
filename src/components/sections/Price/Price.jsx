@@ -1,4 +1,4 @@
-import { priceData } from "../../../data";
+import { priceData } from "../../data.js";
 import { PrimaryButtons } from "../../Buttons/Buttons.jsx";
 import { BlackButtons } from "../../Buttons/Buttons.jsx";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';

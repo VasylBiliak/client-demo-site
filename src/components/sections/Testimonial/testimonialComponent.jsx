@@ -1,4 +1,4 @@
-import { testimonial } from "../../../data";
+import { testimonial } from "../../data.js";
 import Testimonial from "./Testimonial.jsx";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

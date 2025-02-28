@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { newsData } from "../../../data.js";
+import { newsData } from "../../data.js";
 import { PrimaryButtons } from "../../Buttons/Buttons.jsx";
 import { FaArrowRight } from "react-icons/fa";  // Підключаємо нову іконку
 import styles from "./news.module.css";

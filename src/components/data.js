@@ -1,15 +1,15 @@
-import img1 from "./assets/png/Illustration 1.png";
-import img2 from "./assets/png/Illustration 6.png";
-import img3 from "./assets/png/Illustration 4.png";
-import img4 from "./assets/png/Illustration 3.png";
-import img5 from "./assets/png/Illustration 5.png";
-import img6 from "./assets/png/Illustration 7.png";
-import peopleImg from "./assets/svg/face.svg";
-import newsImage1 from "./assets/png/image 4.png";
-import newsImage2 from "./assets/png/pc.png";
-import newsImage3 from "./assets/png/Bitcoin.png";
-import newsImage4 from "./assets/png/mobile.png";
-import newsImage5 from "./assets/png/image 5.png";
+import img1 from "../assets/png/Illustration 1.png";
+import img2 from "../assets/png/Illustration 6.png";
+import img3 from "../assets/png/Illustration 4.png";
+import img4 from "../assets/png/Illustration 3.png";
+import img5 from "../assets/png/Illustration 5.png";
+import img6 from "../assets/png/Illustration 7.png";
+import newsImage1 from "../assets/png/image 4.png";
+import newsImage2 from "../assets/png/pc.png";
+import newsImage3 from "../assets/png/Bitcoin.png";
+import newsImage4 from "../assets/png/mobile.png";
+import newsImage5 from "../assets/png/image 5.png";
+import peopleImg from "../assets/svg/face.svg";
 
 export const newsData = [
     {
@@ -49,6 +49,31 @@ export const newsData = [
     },
 ]
 
+export const priceData = [
+    {
+        id:1,
+        title:"Basic Edition",
+        price:"600",
+        description:"Lorem ipsum dolor sit amet consectetur. Eu eget ornare.",
+        detail: [
+            "Lorem ipsum dolor",
+            "Lorem ipsum dolor",
+            "Lorem ipsum dolor",
+        ],
+    },
+    {
+        id:2,
+        title:"Enterprise Edition",
+        price:"1000",
+        description:"Lorem ipsum dolor sit amet consectetur. Eu eget ornare.",
+        detail: [
+            "Lorem ipsum dolor",
+            "Lorem ipsum dolor",
+            "Lorem ipsum dolor",
+        ],
+    }
+]
+
 export const testimonial = [
     {
         id:1,
@@ -63,30 +88,6 @@ export const testimonial = [
         name:"first name last name",
         company:"Lorem ipsum dolor",
         imageUrl:peopleImg,
-    }
-]
-export const priceData = [
-    {
-        id:1,
-        title:"Basic Edition",
-        price:"600",
-        description:"Lorem ipsum dolor sit amet consectetur. Eu eget ornare.",
-        detail: [
-          "Lorem ipsum dolor",
-          "Lorem ipsum dolor",
-          "Lorem ipsum dolor",
-        ],
-    },
-    {
-        id:2,
-        title:"Enterprise Edition",
-        price:"1000",
-        description:"Lorem ipsum dolor sit amet consectetur. Eu eget ornare.",
-       detail: [
-          "Lorem ipsum dolor",
-          "Lorem ipsum dolor",
-          "Lorem ipsum dolor",
-        ],
     }
 ]
 

@@ -1,47 +1,49 @@
-.cryptoPage {
+.crypto {
     background-color: var(--hover-color);
     position: relative;
     margin: 80px 0;
-    z-index: -10;
 }
 
-.cryptoPage__image {
+.crypto__image {
     position: absolute;
+    z-index: 50;
 }
 
-.cryptoPage__imageBottomLeft {
+.crypto__imageBottomLeft {
     bottom: 0;
 }
 
-.cryptoPage__imageTopRight {
+.crypto__imageTopRight {
     right: 0;
 }
 
-.cryptoPage__imageCenter {
+.crypto__imageCenter {
     left: 50%;
     transform: translateX(-50%);
 }
 
-.cryptoPage__imageBottomRight {
+.crypto__imageBottomRight {
     bottom: 0;
     right: 0;
 }
 
-.cryptoPage__content {
+.crypto__content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 28rem;
+
 }
 
-.cryptoPage__textContainer {
+.crypto__textContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
-.cryptoPage__title {
+.crypto__title {
     font-weight: bold;
     color: #191919;
     font-size: var(--font-size-large);
@@ -50,7 +52,7 @@
     text-align: center;
 }
 
-.cryptoPage__subtitle {
+.crypto__subtitle {
     font-size: var(--font-size-medium);
     color: #1a1a1a;
     font-weight: 500;
@@ -60,13 +62,13 @@
     letter-spacing: 0.1em;
 }
 
-.cryptoPage__buttons {
+.crypto__buttons {
     display: flex;
     gap: 24px;
     align-items: center;
 }
 
-.cryptoPage__button {
+.crypto__button {
     border-radius: 24px;
     cursor: pointer;
     font-size: var(--font-size-medium);
@@ -74,39 +76,39 @@
     padding: 8px 16px;
 }
 
-.cryptoPage__buttonPrimary {
-    background-color: #2a2a2a;
+.crypto__buttonPrimary {
+    background-color: #000000;
     color: var(--primary-color);
 }
 
-.cryptoPage__buttonSecondary {
+.crypto__buttonSecondary {
     background-color: transparent;
-    border: 1px solid #2a2a2a;
-    color: #191919;
+    border: 2px solid #2a2a2a;
+    color: #000000;
 }
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {
-    .cryptoPage__title {
+    .crypto__title {
         font-size: var(--font-size-large);
     }
 }
 
 @media (max-width: 640px) {
-    .cryptoPage__content {
+    .crypto__content {
         height: 20rem;
     }
 
-    .cryptoPage__title {
+    .crypto__title {
         font-size: var(--font-size-medium);
     }
 
-    .cryptoPage__subtitle {
+    .crypto__subtitle {
         font-size: var(--font-size-small);
         width: 83.33%;
     }
 
-    .cryptoPage__button {
+    .crypto__button {
         font-size: var(--font-size-small);
         padding: 8px 16px;
     }

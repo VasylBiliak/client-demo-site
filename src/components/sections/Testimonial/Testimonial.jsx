@@ -6,6 +6,7 @@ import styles from "./testimonial.module.css";
 const Testimonial = ({ name, company, description, image }) => {
     return (
             <div className={styles.testimonial}>
+
                 <div className={styles.testimonial__image}>
                     <img src={image} alt="Testimonial" />
                 </div>
@@ -15,6 +16,7 @@ const Testimonial = ({ name, company, description, image }) => {
                         <h2 className={styles.testimonial__title}>Testimonials</h2>
                         <h1 className={styles.testimonial__subtitle}>Lorem ipsum dolor sit amet consectetur.</h1>
                     </div>
+
 
                     <div className={styles.testimonial__description}>
                         <div><img src={quotationMarkStart} alt="Start" /></div>

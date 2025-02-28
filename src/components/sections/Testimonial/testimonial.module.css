@@ -71,3 +71,15 @@
     grid-column-start: 4;
     grid-column-end: 6;
 }
+
+@media (min-width: 950px) {
+    .testimonial {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 950px) {
+    .testimonial {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

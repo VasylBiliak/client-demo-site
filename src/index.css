@@ -61,7 +61,7 @@ body {
 
 
 :root {
-  --font-size-button: calc(24px + 0.2vw);
+  --font-size-button: calc(22px + 0.2vw);
   --font-size-small: calc(18px + 0.2vw);
   --font-size-medium: calc(24px + 0.3vw);
   --font-size-large: calc(32px + 0.5vw);

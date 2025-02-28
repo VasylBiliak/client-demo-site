@@ -13,3 +13,9 @@
         margin: 0 2rem;
     }
 }
+
+@media (max-width: 480px) {
+    .testimonialContainer {
+        margin: 0 1rem;
+    }
+}

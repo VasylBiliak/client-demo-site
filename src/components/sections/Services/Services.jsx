@@ -1,4 +1,4 @@
-import { services } from "../../../data";
+import { services } from "../../data.js";
 import styles from "./services.module.css";
 
 const ServicesPage = () => {

@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className={styles.footer}>
                 <div className={styles.footer__top}>
                     <div className={styles.footer__info}>
-                        <img className={styles.footer__logo} src={logoFooter} alt="Vernchain Logo" />
+                        <img className={styles.footer__logo} src={logoFooter} alt="Logo" />
                         <p className={styles.footer__text}>
                             Lorem ipsum dolor sit amet consectetur. Fusce nisl lacus elementum neque.
                         </p>
@@ -23,14 +23,6 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.footer__middle}>
-                    <ul className={styles.footer__nav}>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Price</li>
-                        <li>News</li>
-                    </ul>
-
                     <div className={styles.footer__social}>
                         <FaWhatsapp className={styles.footer__social_icon} />
                         <FaXTwitter className={styles.footer__social_icon} />
