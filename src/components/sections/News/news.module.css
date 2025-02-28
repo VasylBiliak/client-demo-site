@@ -1,0 +1,150 @@
+.news {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 6rem 0;
+}
+
+.news__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.news__subtitle {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    color: var(--hover-color);
+}
+
+.news__title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 80%;
+    letter-spacing: 0.1rem;
+}
+
+.news__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.news__carousel {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0.5rem;
+}
+
+/* ОБГОРТКА СТИЛІВ ДЛЯ DOTS, ЩОБ ПРАЦЮВАЛО ЛИШЕ В NEWS */
+.news :global(.react-multi-carousel-dot-list) {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.news :global(.react-multi-carousel-dot button) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid var(--hover-color);
+    background-color: transparent;
+}
+
+.news :global(.react-multi-carousel-dot--active button) {
+    background-color: var(--hover-color);
+}
+
+.news__item {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.news__card {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2a2a;
+    height: auto;
+    border-radius: 1rem;
+    width: 75%;
+    border: 1px solid var(--hover-color);
+    min-height: 28rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+.news__image {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.news__details {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #2a2a2a;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.news__item_title {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.news__item_text {
+    font-size: 0.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.news__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__date {
+    letter-spacing: 0.1rem;
+}
+
+.news__more {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.news__more_text {
+    font-weight: bold;
+    color: var(--hover-color);
+    letter-spacing: 0.1rem;
+}
+
+.news__more_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--hover-color);
+    transition: transform 0.3s ease;
+}
+
+.news__more:hover .news__more_icon {
+    transform: translateX(5px);
+    color: var(--hover-color);
+}
+
+.news__button {
+    display: flex;
+    justify-content: center;
+}

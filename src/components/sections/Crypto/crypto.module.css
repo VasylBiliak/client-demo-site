@@ -1,0 +1,113 @@
+.cryptoPage {
+    background-color: var(--hover-color);
+    position: relative;
+    margin: 80px 0;
+    z-index: -10;
+}
+
+.cryptoPage__image {
+    position: absolute;
+}
+
+.cryptoPage__imageBottomLeft {
+    bottom: 0;
+}
+
+.cryptoPage__imageTopRight {
+    right: 0;
+}
+
+.cryptoPage__imageCenter {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cryptoPage__imageBottomRight {
+    bottom: 0;
+    right: 0;
+}
+
+.cryptoPage__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+}
+
+.cryptoPage__textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cryptoPage__title {
+    font-weight: bold;
+    color: #191919;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.cryptoPage__subtitle {
+    font-size: 1.125rem;
+    color: #1a1a1a;
+    font-weight: 500;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 48px;
+    letter-spacing: 0.1em;
+}
+
+.cryptoPage__buttons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.cryptoPage__button {
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    letter-spacing: 0.1em;
+    padding: 8px 16px;
+}
+
+.cryptoPage__buttonPrimary {
+    background-color: #2a2a2a;
+    color: var(--primary-color);
+}
+
+.cryptoPage__buttonSecondary {
+    background-color: transparent;
+    border: 1px solid #2a2a2a;
+    color: #191919;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .cryptoPage__title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .cryptoPage__content {
+        height: 20rem;
+    }
+
+    .cryptoPage__title {
+        font-size: 1.25rem;
+    }
+
+    .cryptoPage__subtitle {
+        font-size: 0.875rem;
+        width: 83.33%;
+    }
+
+    .cryptoPage__button {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+    }
+}

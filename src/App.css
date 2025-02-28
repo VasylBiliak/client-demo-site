@@ -1,0 +1,12 @@
+section {
+  scroll-margin-top: 100px;
+}
+
+.box-shadow {
+  box-shadow: -30px 30px 20px rgba(16, 178, 54, 0.3);
+}
+
+.check-icon {
+  filter: invert(100%) brightness(0%);
+}
+

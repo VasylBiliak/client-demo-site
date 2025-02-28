@@ -1,0 +1,27 @@
+.buttonGroup {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.buttonGroup__button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.buttonGroup__icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.buttonGroup__button:hover .buttonGroup__icon {
+    font-weight: bold;
+    color: var(--hover-color, var(--hover-color));
+    border-radius: 50%;
+    border: 2px solid var(--hover-color, var(--hover-color));;
+
+}
