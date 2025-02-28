@@ -13,7 +13,7 @@ const Testimonial = ({ name, company, description, image }) => {
                 <div className={styles.testimonial__content}>
                     <div className={styles.testimonial__header}>
                         <h2 className={styles.testimonial__title}>Testimonials</h2>
-                        <h1 className={styles.testimonial__subtitle}>Client Stories, Vernchain Success</h1>
+                        <h1 className={styles.testimonial__subtitle}>Lorem ipsum dolor sit amet consectetur.</h1>
                     </div>
 
                     <div className={styles.testimonial__description}>
@@ -21,7 +21,7 @@ const Testimonial = ({ name, company, description, image }) => {
                         <p className={styles.testimonial__descriptionText}>{description}</p>
                         <div className={styles.testimonial__authorInfo}>
                             <div className={styles.testimonial__authorDetails}>
-                                <h2 className={styles.testimonial__authorName}>{name}</h2>
+                                <h3 className={styles.testimonial__authorName}>{name}</h3>
                                 <span className={styles.testimonial__authorCompany}>/</span>
                                 <h3 className={styles.testimonial__authorCompany}>{company}</h3>
                             </div>

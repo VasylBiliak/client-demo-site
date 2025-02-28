@@ -15,7 +15,7 @@
 
 .news__subtitle {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: var(--font-size-medium);
     text-transform: uppercase;
     letter-spacing: 0.4rem;
     color: var(--hover-color);
@@ -23,7 +23,7 @@
 
 .news__title {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: var(--font-size-large);
     text-align: center;
     max-width: 80%;
     letter-spacing: 0.1rem;
@@ -106,7 +106,7 @@
 }
 
 .news__item_text {
-    font-size: 0.875rem;
+    font-size: var(--font-size-small);
     letter-spacing: 0.05rem;
 }
 

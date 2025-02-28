@@ -10,6 +10,7 @@
 .footer__top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .footer__text {
-    font-size: 1.125rem;
+    font-size: var(--font-size-medium);
     line-height: 2rem;
     letter-spacing: 0.05em;
 }
@@ -37,32 +38,36 @@
 }
 
 .footer__title {
-    font-size: 1.25rem;
+    font-size: var(--font-size-medium);
     font-weight: bold;
     letter-spacing: 0.05em;
 }
 
 .footer__contact_info {
-    font-size: 1.125rem;
+    font-size: var(--font-size-medium);
     letter-spacing: 0.05em;
 }
 
 .footer__middle {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: 1px solid gray;
     padding-bottom: 1rem;
+    gap: 2rem;
 }
 
 .footer__nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
-    font-size: 1.25rem;
+    font-size: var(--font-size-medium);
     font-weight: bold;
 }
 
 .footer__social {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
 
@@ -81,9 +86,11 @@
 .footer__bottom {
     display: flex;
     justify-content: space-between;
-    font-size: 1.125rem;
+    flex-wrap: wrap;
+    font-size: var(--font-size-medium);
     letter-spacing: 0.05em;
     padding-top: 1rem;
+    gap: 1rem;
 }
 
 .footer__links {

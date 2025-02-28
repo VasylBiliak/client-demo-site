@@ -9,10 +9,12 @@ const Navbar = () => {
     const [navBarOpen, setNavBarOpen] = useState(false);
 
     const toggleDrawer = (open) => () => {
+        document.body.style.overflow = 'hidden';
         setNavBarOpen(open);
     };
 
     const handleLinkClick = (to) => {
+        document.body.style.overflow = '';
         setNavBarOpen(false);
         document.getElementById(to)?.scrollIntoView({ behavior: "smooth" });
     };

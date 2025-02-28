@@ -58,3 +58,30 @@ html, body {
 body {
   overflow-x: hidden;
 }
+
+
+:root {
+  --font-size-button: calc(24px + 0.2vw);
+  --font-size-small: calc(18px + 0.2vw);
+  --font-size-medium: calc(24px + 0.3vw);
+  --font-size-large: calc(32px + 0.5vw);
+  --font-size-xxlarge: calc(46px + 1vw);
+}
+
+p {
+  font-size: var(--font-size-small);
+  text-align: justify;
+
+}
+
+h1 {
+  font-size: var(--font-size-xxlarge);
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+}

@@ -3,7 +3,7 @@ import { PrimaryButtons } from "../../Buttons/Buttons.jsx";
 import { BlackButtons } from "../../Buttons/Buttons.jsx";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
-import styles from "./pricePage.module.css";
+import styles from "./price.module.css";
 
 const Price = () => {
     return (
@@ -30,7 +30,7 @@ const Price = () => {
                                     <div className={styles.price__card_price}>
                                         <span className={styles.price__card_dollar}>$</span>
                                         <h2 className={styles.price__card_amount}>{item.price}</h2>
-                                        <span className={styles.price__card_per_project}>/prj</span>
+                                        <span className={styles.price__card_per_project}>/lrn</span>
                                     </div>
                                     <p className={styles.price__card_description}>{item.description}</p>
                                     <ul className={styles.price__card_details}>

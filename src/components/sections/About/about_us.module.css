@@ -25,12 +25,12 @@
     color: var(--hover-color);
     letter-spacing: 0.4rem;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: var(--font-size-medium);
     padding-bottom: 8px;
 }
 
 .about_us__heading {
-    font-size: 2.5rem;
+    font-size: var(--font-size-large);
     font-weight: bold;
     padding-bottom: 40px;
     letter-spacing: 0.1em;
@@ -40,7 +40,7 @@
 
 .about_us__text {
     padding-bottom: 40px;
-    font-size: 1.125rem;
+    font-size: var(--font-size-medium);
     letter-spacing: 0.1em;
     line-height: 2rem;
 }
@@ -50,7 +50,7 @@
         gap: 40px;
     }
     .about_us__heading {
-        font-size: 2rem;
+        font-size: var(--font-size-large);
     }
 }
 
