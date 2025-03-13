@@ -22,6 +22,25 @@
     font-weight: 400;
 }
 
+.button_link {
+    font-size: var(--font-size-small);
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    font-weight: bold;
+}
+
+.button_link:hover {
+    font-size: var(--font-size-small);
+    border: 3px solid var(--button-hover-background);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 .button_black {
     cursor: pointer;
     color: var(--primary-color);

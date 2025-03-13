@@ -16,6 +16,14 @@ export const SecondaryButtons = ({ children }) => {
     );
 };
 
+export const LinkButtons = ({ children }) => {
+    return (
+            <button className={`${styles.button} ${styles.button_link}`}>
+                {children}
+            </button>
+    );
+};
+
 export const BlackButtons = ({ children }) => {
     return (
             <button className={`${styles.button} ${styles.button_black}`}>

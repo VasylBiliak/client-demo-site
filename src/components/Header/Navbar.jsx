@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from "../../assets/svg/Def LOFO.svg";
-import { PrimaryButtons } from "../Buttons/Buttons.jsx";
+import { LinkButtons } from "../Buttons/Buttons.jsx";
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import styles from "./navbar.module.css";
@@ -40,7 +40,7 @@ const Navbar = () => {
                                     </li>
                             ))}
                             <li className={styles.nav__button}>
-                                <PrimaryButtons>Get Started</PrimaryButtons>
+                                <LinkButtons>Get Started</LinkButtons>
                             </li>
                         </ul>
                     </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
                                             </li>
                                     ))}
                                     <li className={styles.nav__button}>
-                                        <PrimaryButtons onClick={toggleDrawer(false)} >Get Started</PrimaryButtons>
+                                        <LinkButtons onClick={toggleDrawer(false)} >Get Started</LinkButtons>
                                     </li>
                                 </ul>
                             </div>
